@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="25dp"
+
+>
+
+    <TextView
+            android:id="@+id/editTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:background="@color/purple"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:textAllCaps="true"
+            android:textSize="40sp"
+/>
+
+    <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nom:"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:textAllCaps="true"
+            android:textSize="25sp"
+    />
+    <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email:"
+            android:layout_marginTop="40dp"
+            android:textAllCaps="true"
+            android:textSize="25sp"
+    />
+    <TextView
+            android:id="@+id/Genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Genre:"
+            android:layout_marginTop="40dp"
+            android:textSize="25sp"
+/>
+
+
+    <RadioGroup
+            android:id="@+id/radioButtonGenre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+
+    >
+        <RadioButton
+                android:id="@+id/radioButtonMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Homme"
+                android:textSize="25sp"
+        />
+        <RadioButton
+                android:id="@+id/radioButtonFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Femme"
+                android:textSize="25sp"
+        />
+    </RadioGroup>
+    <TextView
+            android:id="@+id/editTextOpt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Options:"
+            android:layout_marginTop="20dp"
+            android:textSize="25sp"
+    />
+    <CheckBox
+            android:id="@+id/CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Newsletter"
+            android:layout_marginTop="10dp"
+            android:textSize="25sp"
+    />
+    <CheckBox
+            android:id="@+id/CheckBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acceptez les conditions"
+            android:textSize="25sp"
+    />
+    <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valider"
+            android:layout_marginTop="50dp"
+            android:textSize="30sp"
+
+    />
+
+</LinearLayout>
